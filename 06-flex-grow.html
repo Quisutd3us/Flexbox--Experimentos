@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+        font-family: Helvetica;
+        font-variant: small-caps;
+        background-color: #5c5c5c;
+        color: aliceblue;
+    }
+    
+    .section1 {
+        margin: 0 auto;
+        height: 500px;
+        width: 500px;
+        border: solid 1px black;
+        background-color: springgreen;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        -webkit-box-shadow: 10px 10px 19px -9px rgba(0, 0, 0, 0.95);
+        -moz-box-shadow: 10px 10px 19px -9px rgba(0, 0, 0, 0.95);
+        box-shadow: 10px 10px 19px -9px rgba(0, 0, 0, 0.95);
+    }
+    
+    article{
+        padding: 5px 10px;
+    }
+    .caja1 {
+        background-color: #669999;
+        color: #fff;
+        -ms-align-self: center;
+        align-self: center;
+        flex-grow:1;
+    }
+    
+    .caja2 {
+        background-color: #407F7F;
+        color: #fff;
+        flex-grow: 1;
+    }
+    
+    .caja3 {
+        background-color: #0D4D4D;
+        color: #fff;
+        flex-grow: 1;
+    }
+    
+    .caja4 {
+        background-color: #003333;
+        color: #fff;
+        flex-grow: 1;
+        
+    }
+</style>
+
+<body>
+    <h1>align-self</h1>
+    <section class="section1">
+        <article class="caja1">Caja 1 lorem lorem lorem</article>
+        <article class="caja2">Caja 2 lorem</article>
+        <article class="caja3">Caja 3 lorem</article>
+        <article class="caja4">Caja 4</article>
+    </section>
+
+</body>
+
+</html>

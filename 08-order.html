@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>integrando</title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+        font-family: Helvetica;
+        font-variant: small-caps;
+        background-color: #5c5c5c;
+        color: aliceblue;
+    }
+    
+    .section1 {
+        margin: 1rem auto;
+        height: 500px;
+        width: 500px;
+        border: solid 1px black;
+        background-color: springgreen;
+        -webkit-box-shadow: 10px 10px 19px -9px rgba(0, 0, 0, 0.95);
+        -moz-box-shadow: 10px 10px 19px -9px rgba(0, 0, 0, 0.95);
+        box-shadow: 10px 10px 19px -9px rgba(0, 0, 0, 0.95);
+        
+        /*Flexbox*/
+        
+        display: flex;
+    }
+    
+    article {
+        padding: 1rem;
+    }
+    
+    .caja1 {
+        background-color: #669999;
+        color: #fff;
+        order: 1;
+        
+/*flex:flex-grow flex-shrink flex-basis*/
+        
+    }
+    
+    .caja2 {
+        background-color: #407F7F;
+        color: #fff;
+        
+    }
+    
+    .caja3 {
+        background-color: #0D4D4D;
+        color: #fff;
+        order: 2;
+        
+    }
+    
+    .caja4 {
+        background-color: #003333;
+        color: #fff;
+        order: -1;
+        
+        
+    }
+</style>
+
+<body>
+    <h1>integrando</h1>
+    <section class="section1">
+        <article class="caja1">Caja 1</article>
+        <article class="caja2">Caja 2 </article>
+        <article class="caja3">Caja 3</article>
+        <article class="caja4">Caja 4</article>
+    </section>
+
+</body>
+
+</html>

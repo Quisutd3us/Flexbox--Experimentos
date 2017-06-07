@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Place holder | flexbox</title>
+    <style>
+        .section {
+            background-color: #3c3c3c;
+            
+/*            flexbox*/
+            
+            display: flex;
+            flex-wrap: nowrap;
+            -webkit-flex-direction: row;
+            -moz-flex-direction: row;
+            -ms-flex-direction: row;
+            -o-flex-direction: row;
+            flex-direction: row;
+            
+        }
+        
+        img {
+            width: 150px;
+            height: 150px;
+            padding: 1rem;
+        }
+        
+        p{
+            font-family: monospace;
+            color: aliceblue;
+            font-style: italic;
+            font-size: 2em;
+            padding: 1rem;
+        }
+        
+        @media (max-width: 520px) {
+            .section{
+                -webkit-flex-direction: column;
+                -moz-flex-direction: column;
+                -ms-flex-direction: column;
+                -o-flex-direction: column;
+                flex-direction:column ;
+                align-items: center;
+            }
+            
+            img{
+                width: 200px;
+                height: 200px;
+            }
+            
+            p{
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="section">
+        <img src="/image/Recurso%2019-8.png" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, ad praesentium. Molestiae non eius temporibus cupiditate accusantium autem, placeat ab, assumenda, eveniet similique maiores! Facere voluptates similique perferendis quasi, numquam repellendus tempore, eos rerum?</p>
+    </div>
+</body>
+
+</html>
